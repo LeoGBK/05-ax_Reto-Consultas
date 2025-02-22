@@ -26,15 +26,20 @@ span {
   padding: 0.5em;
 }
 
-/* Giving styles to body content. */
+/* Giving styles to main content. */
+main {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
 .contenedor {
   display: inline-flex;
 }
 
 .tarjeta {
   background-color: gainsboro;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 1em;
@@ -63,7 +68,7 @@ p {
 
 /* Giving styles to text inside the footer. */
 footer {
-    background-color: green;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  background-color: green;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
