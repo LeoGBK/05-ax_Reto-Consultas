@@ -31,6 +31,13 @@ span {
   display: inline-flex;
 }
 
+img {
+  height: 350px;
+}
+
+.tarjeta {
+}
+
 h4 {
   font-size: large;
   font-weight: bold;
