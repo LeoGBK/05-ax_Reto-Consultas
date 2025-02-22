@@ -8,6 +8,8 @@ header {
   background-color: green;
   padding-top: 2em;
   padding-bottom: 2em;
+  position: fixed;
+  width: 100%;
 }
 
 .cabeceraypie {
@@ -16,7 +18,7 @@ header {
 
 /* Giving styles to text inside the header. */
 h1 {
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bolder;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -28,12 +30,15 @@ span {
 
 /* Giving styles to main content. */
 main {
-  padding-top: 1.5em;
+  padding-top: 10em;
   padding-bottom: 1.5em;
 }
 
 .contenedor {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .tarjeta {
@@ -45,9 +50,13 @@ main {
   margin: 1em;
 }
 
-img {
-  height: 150px;
+/* Style created to center IMG tags with "center" within "tarjeta" */
+.center {
+  display: block;
+  width: 100px;
   padding-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2,
@@ -66,9 +75,67 @@ p {
   padding-bottom: 1em;
 }
 
+#nota {
+  padding-left: 4.5em;
+  padding-right: 4.5em;
+}
+
 /* Giving styles to text inside the footer. */
 footer {
   background-color: green;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 500px) {
+  /* Giving styles to text inside the header. */
+  h1 {
+    font-size: xx-large;
+  }
+
+  main {
+    padding-top: 10em;
+    padding-bottom: 1.5em;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .tarjeta {
+    background-color: gainsboro;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+  }
+
+  /* Style created to center IMG tags with "center" within "tarjeta" */
+  .center {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    font-size: x-small;
+    padding-top: 1em;
+  }
+
+  .aviso {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  /* Giving styles to text inside the footer. */
+  footer {
+    background-color: green;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
 }
