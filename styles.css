@@ -27,7 +27,7 @@ span {
 }
 
 /* Giving styles to body content. */
-.tarjetas {
+.contenedor {
   display: inline-flex;
 }
 
