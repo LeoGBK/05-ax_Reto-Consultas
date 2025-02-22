@@ -10,7 +10,7 @@ header {
   padding-bottom: 2em;
 }
 
-.cabecera {
+.cabeceraypie {
   color: white;
 }
 
@@ -59,4 +59,11 @@ p {
 .aviso {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+/* Giving styles to text inside the footer. */
+footer {
+    background-color: green;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
