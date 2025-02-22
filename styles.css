@@ -28,7 +28,7 @@ span {
 
 /* Giving styles to body content. */
 .tarjetas {
-    display: flex
+  display: inline-flex;
 }
 
 h4 {
