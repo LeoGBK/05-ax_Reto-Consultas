@@ -1,13 +1,15 @@
 /* Centering all the text in the body. */
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
   text-align: center;
 }
 
 /* Giving styles to header content. */
 header {
   background-color: green;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   position: fixed;
   width: 100%;
 }
@@ -25,12 +27,14 @@ h1 {
 }
 
 span {
+  font-size: small;
   padding: 0.5em;
 }
 
 /* Giving styles to main content. */
 main {
-  padding-top: 10em;
+  height: 100%;
+  padding-top: 6em;
   padding-bottom: 1.5em;
 }
 
@@ -47,6 +51,7 @@ main {
   padding-right: 2.5em;
   padding-top: 1em;
   padding-bottom: 1em;
+  align-content: space-around;
   margin: 1em;
 }
 
@@ -82,17 +87,34 @@ p {
 
 /* Giving styles to text inside the footer. */
 footer {
+  bottom: 0;
+  width: 100%;
   background-color: green;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  font-size: xx-small;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 @media only screen and (min-width: 500px) {
+  /* Giving styles to header content. */
+  header {
+    background-color: green;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: fixed;
+    width: 100%;
+  }
+
   /* Giving styles to text inside the header. */
   h1 {
     font-size: xx-large;
   }
 
+  span {
+    font-size: 17px;
+  }
+
+  /* Giving styles to main content. */
   main {
     padding-top: 10em;
     padding-bottom: 1.5em;
@@ -106,7 +128,7 @@ footer {
   }
 
   .tarjeta {
-    background-color: gainsboro;
+    background-color: rgb(235, 233, 233);
     padding-left: 2.5em;
     padding-right: 2.5em;
     padding-top: 1em;
@@ -117,6 +139,7 @@ footer {
   /* Style created to center IMG tags with "center" within "tarjeta" */
   .center {
     display: block;
+    width: 250px;
     padding-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -132,10 +155,22 @@ footer {
     padding-bottom: 1em;
   }
 
+  h2,
+  h4 {
+    font-size: x-large;
+  }
+
+  p {
+    font-size: medium;
+    padding-top: 1em;
+  }
+
   /* Giving styles to text inside the footer. */
   footer {
-    background-color: green;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    font-size: 16px;
+    bottom: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    align-content: center;
   }
 }
