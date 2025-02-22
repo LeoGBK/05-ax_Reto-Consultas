@@ -1,23 +1,42 @@
+/* Centering all the text in the body. */
+body {
+  text-align: center;
+}
+
 /* Giving styles to header content. */
 header {
-    background-color: green;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  background-color: green;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .cabecera {
-    color: white;
-    text-align: center;
+  color: white;
 }
 
 /* Giving styles to text inside the header. */
 h1 {
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 span {
-    padding: 0.5em;
+  padding: 0.5em;
+}
+
+/* Giving styles to body content. */
+.tarjetas {
+    display: flex
+}
+
+h4 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.aviso {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
