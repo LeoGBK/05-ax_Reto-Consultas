@@ -31,16 +31,29 @@ span {
   display: inline-flex;
 }
 
-img {
-  height: 350px;
-}
-
 .tarjeta {
+  background-color: gainsboro;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
 }
 
+img {
+  height: 150px;
+  padding-bottom: 1em;
+}
+
+h2,
 h4 {
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
+}
+
+p {
+  font-size: x-small;
+  padding-top: 1em;
 }
 
 .aviso {
